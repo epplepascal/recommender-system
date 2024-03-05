@@ -1,0 +1,14 @@
+repos:
+- repo: local
+  hooks:
+    - id: black
+      name: check that the code is formatted with black
+      entry: pipenv run black --line-length 120
+      language: system
+      types: [python]
+
+    - id: isort
+      name: check that the imports are sorted
+      entry: pipenv run isort --line-length 120 --profile black
+      language: system
+      types: [python]

@@ -4,12 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-WORKDIR /app/examples/recommender
-
-RUN apt-get update && apt-get install -y cmake
-
 RUN pip install --upgrade pip
-RUN pip install cmake
 
 RUN pip install pipenv
 

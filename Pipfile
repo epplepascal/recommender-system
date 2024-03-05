@@ -12,6 +12,8 @@ dvc = "*"
 "pyyaml" = "*"
 lightfm = "*"
 mlflow = "*"
+visium-explore = "*"
+streamlit-option-menu = "*"
 
 [dev-packages]
 pre-commit = "*"
@@ -22,6 +24,8 @@ build = "*"
 twine = "*"
 pytest = "*"
 ipykernel = "*"
+black = "*"
+isort = "*"
 
 [requires]
 python_version = "3.9"
