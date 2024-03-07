@@ -1,5 +1,3 @@
-"""Implementation of a Most Popular Recommender System."""
-
 import numpy as np
 
 from src.models.recommender import RecommenderSystem
